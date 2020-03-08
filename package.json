@@ -1,0 +1,28 @@
+{
+  "name": "hackernews",
+  "version": "0.1.0",
+  "description": "",
+  "main": "cli.js",
+  "bin": {
+    "todoist": "cli.js"
+  },
+  "scripts": {
+    "test": "todoist"
+  },
+  "keywords": [
+    "todoist",
+    "task manager"
+  ],
+  "author": "",
+  "license": "GPLv3",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "clui": "^0.3.6",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.0.6",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0",
+    "uuid": "^7.0.2"
+  }
+}
